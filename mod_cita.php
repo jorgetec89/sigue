@@ -93,27 +93,7 @@
 	}
 ?>
 
-		<script type="text/javascript">
-
-			$(#cita[]).submit(function()) {
-
-				$.ajax {
-
-
-					type: 'POST',
-					url: $($this).attr('action'),
-					data:$($this).serialize(),
-					success:function(data){
-						$('#').html(data);
-		        
-
-		        }
-        })        
-        return false;
-    }); 
-
-		</script>
-
+		
 		
 			<table align="center" border="0" class="sig_form">
 				<tr class="sig_header">
