@@ -273,7 +273,7 @@ $(function() {
 
 
 
-		<form name="reporte_prospecto" action="genera_reporte.php" method="post">
+		<form name="reporte_prospecto" action="<?=$_SERVER['PHP_SELF'];?>" method="post">
         
         <table>
        	
